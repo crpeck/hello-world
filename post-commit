@@ -1,2 +1,3 @@
 #!/bin/bash
-curl -X POST http://localhost:8080/job/mabug-hello-world/build
+# post commit hook to ping Jenkins to rebuild & redeploy
+curl -X POST http://localhost:8080/job/hello-world/build
